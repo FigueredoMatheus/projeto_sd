@@ -25,5 +25,37 @@ body, html{
     border-bottom:solid 3px var(--cor2);
 }
 
+#slider{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* adicionando imagem de fundo */
+    background: url(../imagens/fundo.svg);
+    background-size: cover;
+}
 
+#buscar{
+    position:relative;
+    margin: auto;
+    top: 3%;
+    height: 40vh;
+    width: 40vw;
+    background: url(../imagens/fundotransparente.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+h1{
+    color:var(--cor3);
+    font-size: 25px;
+}
+
+label{
+    color:var(--cor3);
+    font-size: 15px;
+}
+
+#botaopesquisar{
+
+}

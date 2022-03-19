@@ -11,9 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">   
 
     <title>Página Inicial</title>
 </head>
@@ -50,7 +51,7 @@
     <div id="slider" class="block">
         <div id="buscar">
             <div class="container">
-                <h1 class="title text-center">Encontre o serviço desejado!</h1>
+                <h1 class="title text-center mb-5 h1">Encontre o serviço desejado!</h1>
                 <form>
                     <div class="row">
                         <div class="col">
@@ -61,7 +62,7 @@
                         </div>
                     </div>
                 </form>
-                <div class="row">
+                <div class="row my-3">
                     <div class="col">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
@@ -88,16 +89,52 @@
                     </div>
 
                 </div>
-                
-                <button type="button" class="btn btn-light" id="botaopesquisar">
-                    Pesquisar
-                </button>
+               
+                <div id="botaopesquisar" class="mx-auto mt-5">
+ 
+                    <button type="button" class="btn btn-light" >
+                        Pesquisar
+                    </button>
+                </div>
 
             </div>
         </div>
+       
+        <div id="list-services" class="mt-5 mx-auto">
+
+            <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Profissional</th>
+                    <th scope="col">Serviço</th>
+                    <th scope="col">Experiência</th>
+                    <th scope="col">Avaliação</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                </tbody>
+
+              </table>
+
+        </div>
+
     </div>
-    </div>
+    
     <!--//SLIDER-->
+
+    
 
 </body>
 

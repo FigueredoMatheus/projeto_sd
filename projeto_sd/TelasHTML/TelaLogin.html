@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/main.css">   
+    <link rel="stylesheet" href="css/main.css">
     <title>Tela de Login</title>
 </head>
+
 <body>
     <div id="header">
         <div class="container">
@@ -36,19 +38,78 @@
         </div>
     </div>
 
-    <div id="login-main" class="container-fluid">
-        <div class="row justify-content-around">
-            
-            <div class="login mt-5 col-5">
+    <div id="login-main" class="container-fluid ">
 
-               <div class="title-bar">
-                   <h3 class="py-3">Login</h3>
-               </div>
-               
+        <div class="row justify-content-around">
+
+            <div class="login mt-5 col-5 g-0 ">
+
+                <div class="title-bar d-flex justify-content-center">
+                    <h3 class="py-2">Login</h3>
+                </div>
+
+                <div class="content d-flex flex-column justify-content-center px-4">
+                    <p class="my-5 d-flex justify-content-center">
+                        Preencha os campos abaixo e faça o login
+                    </p>
+
+                    <form>
+
+                        <div class="col">
+                            <input type="text" class="form-control mb-5" placeholder="E-mail">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control mb-5" placeholder="Senha">
+                        </div>
+
+                    </form>
+                    <div id="botaopadrao" class="mx-auto mt-5 mb-5">
+                        <button type="button" class="botao">
+                            Entrar
+                        </button>
+                    </div>
+                </div>
+
             </div>
-            
-            <div class="cadastro mt-5 col-5">
-                Cadastro
+
+            <div class="cadastro mt-5 col-5  g-0" class="container-fluid ">
+                <div class="title-bar d-flex justify-content-center">
+                    <h3 class="py-2">Cadastro</h3>
+                </div>
+                <div class="contentt d-flex flex-column justify-content-center px-4">
+
+                    <div class="btn-group my-5 w-50 mx-auto" role="group" >
+                        <button type="button" class="btn selected-btn">Pessoa</button>
+                        <button type="button" class="btn unselected-btn">Empresa</button>
+                    </div>
+
+                    <form>
+
+                        <div class="col">
+                            <input type="text" class="form-control mb-4" placeholder="Nome completo">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control mb-4" placeholder="E-mail">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control mb-4" placeholder="Senha">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control mb-4" placeholder="Digíte a senha novamente">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control mb-4" placeholder="Telefone comercial">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control mb-4" placeholder="CPF">
+                        </div>
+                    </form>
+                    <div id="botaopadrao" class="mx-auto mt-5 mb-5">
+                        <button type="button" class="botao">
+                            Cadastrar
+                        </button>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -57,4 +118,5 @@
     </div>
 
 </body>
+
 </html>

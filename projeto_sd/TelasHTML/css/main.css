@@ -1,4 +1,5 @@
 @import url(./bootstrap.min.css);
 @import url(./config.css);
-@import url(./custom.css);
+@import url(./telaIncial_style.css);
+@import url(./telaLogin_style.css);
 @import url(./responsive.css);

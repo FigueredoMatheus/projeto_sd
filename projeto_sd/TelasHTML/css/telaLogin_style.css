@@ -1,0 +1,20 @@
+#login-main {
+
+    background-color: var(--cor4);
+    height: 100vh;
+    width: 100vw;
+}
+
+.login {
+    background-color: white;
+}
+
+.cadastro {
+    background-color: red;
+}
+
+.title-bar {
+    background-color: var(--cor1);
+    width: 100%;
+    color: white;
+}

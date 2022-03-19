@@ -1,7 +1,5 @@
 body, html{
     font-family: 'Roboto', sans-serif;
-   
-   
 }
 
 .title{
@@ -69,7 +67,7 @@ label{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(41, 48, 66, 0.9);
+    background-color: var(--cor4)
 }
 
 #list-services table{

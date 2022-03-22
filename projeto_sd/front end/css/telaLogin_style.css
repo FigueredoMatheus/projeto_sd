@@ -1,11 +1,9 @@
 #login-register-main {
     background-color: var(--cor4);
     overflow: hidden;
+    margin: 0px;
+    padding: 0px;
   
-}
-
-.login {
-    background-color: white;
 }
 
 .cadastro {

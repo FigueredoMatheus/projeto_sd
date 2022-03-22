@@ -13,7 +13,7 @@
 <body>
    
 
-    <div id="login-register-main" class="container-fluid">
+    <div id="login-register-main" class="container-fluid vh-100">
 
         <div id="header">
             <div class="container">
@@ -28,10 +28,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Página Inicial</a>
+                                <a class="nav-link " href="#">Página Inicial</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Entre/Cadastre-se</a>
+                                <a class="nav-link active" href="#">Entre/Cadastre-se</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Sobre</a>
@@ -42,95 +42,98 @@
             </div>
         </div>
 
-        <div class="row justify-content-around">
+        <div class="container">
 
-            <div class="login mt-5 col-5 g-0 "> 
+            <div class="row justify-content-around d-flex align-items-center">
 
-                <div class="title-bar d-flex justify-content-center">
-                    <h3 class="py-2">Login</h3>
-                </div>
-
-                <div class="content h-100 d-flex flex-column justify-content-center px-4">
-                    <p class="my-5 mx-auto">
-                        Preencha os campos abaixo e faça o login
-                    </p>
-
-                    <form>
-
-                        <div class="col">
-                            <input type="text" class="form-control mb-5" placeholder="E-mail">
-                        </div>
-                        <div class="col">
-                            <input type="password" class="form-control mb-5" placeholder="Senha">
-                        </div>
-
-                    </form>
-                    <div id="botaopadrao" class="mx-auto mt-5 mb-5">
-                        <button type="button" class="botao">
-                            Entrar
-                        </button>
+                <div class="login mt-5 col-5 g-0"> 
+    
+                    <div class="title-bar d-flex justify-content-center">
+                        <h3 class="py-2">Login</h3>
                     </div>
-                </div>
-
-            </div>
-
-            <div class="cadastro mt-5 col-5  g-0" class="container-fluid ">
-                <div class="title-bar d-flex justify-content-center">
-                    <h3 class="py-2">Cadastro</h3>
-                </div>
-                <div class="contentt d-flex flex-column justify-content-center px-4">
-
-                    <div class="btn-group my-5 w-50 mx-auto" role="group" >
-                        <button type="button" class="btn selected-btn">Pessoa</button>
-                        <button type="button" class="btn unselected-btn">Empresa</button>
+    
+                    <div class="content d-flex flex-column justify-content-center px-4">
+                        <p class="my-5 mx-auto">
+                            Preencha os campos abaixo e faça o login
+                        </p>
+    
+                        <form>
+    
+                            <div class="col">
+                                <input type="text" class="form-control mb-5" placeholder="E-mail">
+                            </div>
+                            <div class="col">
+                                <input type="password" class="form-control mb-5" placeholder="Senha">
+                            </div>
+    
+                        </form>
+                        <div id="botaopadrao" class="mx-auto mt-5 mb-5">
+                            <button type="button" class="botao">
+                                Entrar
+                            </button>
+                        </div>
                     </div>
-
-                    <form>
-
-                        <div class="col">
-                            <input type="text" class="form-control mb-4" placeholder="Nome completo">
+    
+                </div>
+    
+                <div class="cadastro mt-5 col-5  g-0" class="container-fluid ">
+                    <div class="title-bar d-flex justify-content-center">
+                        <h3 class="py-2">Cadastro</h3>
+                    </div>
+                    <div class="contentt d-flex flex-column justify-content-center px-4">
+    
+                        <div class="btn-group my-5 w-50 mx-auto" role="group" >
+                            <button type="button" class="btn selected-btn">Pessoa</button>
+                            <button type="button" class="btn unselected-btn">Empresa</button>
                         </div>
-
-                        <div class="col">
-                            <input type="text" class="form-control mb-4" placeholder="E-mail">
-                        </div>
-
-                        <div class="row">
-                            
+    
+                        <form>
+    
                             <div class="col">
-                                <input type="password" class="form-control mb-4" placeholder="Senha">
-                            </div>
-
-                            <div class="col">
-                                <input type="text" class="form-control mb-4" placeholder="Digíte a senha novamente">
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col">
-                                <input type="text" class="form-control mb-4" placeholder="Telefone comercial">
+                                <input type="text" class="form-control mb-4" placeholder="Nome completo">
                             </div>
     
                             <div class="col">
-                                <input type="text" class="form-control mb-4" placeholder="CPF">
-                            </div>   
-
+                                <input type="text" class="form-control mb-4" placeholder="E-mail">
+                            </div>
+    
+                            <div class="row">
+                                
+                                <div class="col">
+                                    <input type="password" class="form-control mb-4" placeholder="Senha">
+                                </div>
+    
+                                <div class="col">
+                                    <input type="text" class="form-control mb-4" placeholder="Digíte a senha novamente">
+                                </div>
+    
+                            </div>
+    
+                            <div class="row">
+    
+                                <div class="col">
+                                    <input type="text" class="form-control mb-4" placeholder="Telefone comercial">
+                                </div>
+        
+                                <div class="col">
+                                    <input type="text" class="form-control mb-4" placeholder="CPF">
+                                </div>   
+    
+                            </div>
+                        </form>
+    
+                        <div id="botaopadrao" class="mx-auto mt-5 mb-5">
+                            <button type="button" class="botao">
+                                Cadastrar
+                            </button>
                         </div>
-                    </form>
-
-                    <div id="botaopadrao" class="mx-auto mt-5 mb-5">
-                        <button type="button" class="botao">
-                            Cadastrar
-                        </button>
+    
                     </div>
-
                 </div>
+    
             </div>
-
+    
         </div>
-
 
     </div>
 

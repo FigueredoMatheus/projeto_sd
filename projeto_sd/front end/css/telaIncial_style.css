@@ -34,7 +34,7 @@ body, html{
     height: 100vh;
     width: 100vw;
     /* adicionando imagem de fundo */
-    background: url(../imagens/fundo.svg);
+    background: url(../images/fundo.svg);
     background-size: cover;
 }
 
@@ -44,7 +44,7 @@ body, html{
     top: 3%;
     height: 40vh;
     width: 40vw;
-    background: url(../imagens/fundotransparente.svg);
+    background: url(../images/fundotransparente.svg);
     display: flex;
     justify-content: center;
     align-items: center;
